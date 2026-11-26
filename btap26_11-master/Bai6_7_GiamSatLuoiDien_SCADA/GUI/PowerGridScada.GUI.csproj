@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>PowerGridScada.GUI</RootNamespace>
+    <AssemblyName>PowerGridScada.GUI</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\PowerGridScada.BUS.csproj" />
+    <ProjectReference Include="..\DTO\PowerGridScada.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

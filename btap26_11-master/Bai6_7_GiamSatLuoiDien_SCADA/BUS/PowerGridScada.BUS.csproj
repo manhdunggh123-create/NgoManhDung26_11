@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>PowerGridScada.BUS</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\PowerGridScada.DAL.csproj" />
+    <ProjectReference Include="..\DTO\PowerGridScada.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
